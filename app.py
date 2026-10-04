@@ -76,11 +76,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.warning(
-    "⚠️ This system is developed for academic and educational "
-    "purposes only. It does not provide a medical diagnosis."
-)
-
 
 # ============================================================
 # INPUT SECTIONS
@@ -451,11 +446,3 @@ if predict_button:
 # ============================================================
 
 st.divider()
-
-st.caption(
-    "Lung Cancer Risk Prediction | Machine Learning Mini Project"
-)
-
-st.caption(
-    "For educational purposes only — not a substitute for professional medical advice."
-)
